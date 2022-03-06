@@ -5,12 +5,18 @@ import PokemonPikachu from '../views/PokemonPikachu.vue'
 import PokemonHitokage from '../views/PokemonHitokage.vue'
 import PokemonZenigame from '../views/PokemonZenigame.vue'
 import PokemonFushigidane from '../views/PokemonFushigidane.vue'
+import Sample from '../views/Sample.vue'
 
 const routes = [
   {
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/sample',
+    name: 'Sample',
+    component: Sample
   },
   {
     path: '/secondpage',

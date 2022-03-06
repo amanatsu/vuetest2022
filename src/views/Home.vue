@@ -7,8 +7,11 @@
     xl(min-width: 1280px):blue
   -->
     <div>
-      <router-link to="/secondpage">ページ遷移するにはここをクリック</router-link>
-    </div>
+      <router-link to="/sample">Sample</router-link>
+    </div>  
+    <div>
+      <router-link to="/secondpage">ポケモン図鑑</router-link>
+    </div>  
     <article class="max-w-7xl w-full bg-gray-200 sm:bg-red-200 md:bg-yellow-200 lg:bg-green-200 xl:bg-blue-200">
       <img class="m-auto" alt="Vue logo" src="../assets/logo.png" />
       <HelloWorld msg="Hello Vue 3 + Vite" />
